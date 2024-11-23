@@ -1,3 +1,4 @@
 
-indoor = input().lower()
-print(indoor)
+indoor = input()
+indoorlLower = indoor.lower()
+print(indoorlLower)
