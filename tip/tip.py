@@ -9,8 +9,8 @@ def main():
     print(tip)
 
 
-def dollars_to_float(dollars):
-    return float(dollars.replace("$", ""))
+def dollars_to_float(amount):
+    return float(amount.replace("$", ""))
 
 
 def percent_to_float(percent):
