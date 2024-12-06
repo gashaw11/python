@@ -2,6 +2,8 @@
 #using map to convert the iterables to int
 #using split and strip methods
 
+#submit50 cs50/problems/2022/python/outdated
+
 dates=[
     "January",
     "February",
@@ -16,8 +18,8 @@ dates=[
     "November",
     "December"
 ]
-date = input("Date: ").strip().split("/")
+date = input("Date (mm/dd/yyyy): ").strip().split("/")
 
 month,day,year=map(int,date)
-print(month,day,year)
 
+print(year,dates[month-1],day)
