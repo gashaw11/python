@@ -18,8 +18,18 @@ dates=[
     "November",
     "December"
 ]
-date = input("Date (mm/dd/yyyy): ").strip().split("/")
+date = input("Date (e.g., January 5, 2023: ").strip()
 
-month,day,year=map(int,date)
+month,day_year = date.split(" ",1)
 
-print(year,dates[month-1],day)
+
+day,year=day_year.split(",")
+
+
+# Remove any leading or trailing spaces from day and year
+day = day.strip()
+year = year.strip()
+#month = dates.index(month)
+month = month.capitalize()
+
+print(year,month,day)
