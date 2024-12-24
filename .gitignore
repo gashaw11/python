@@ -1,0 +1,45 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments (if applicable)
+env/
+venv/
+.venv/
+ENV/
+
+# Distribution files
+*.egg-info
+dist/
+build/
+*.tar.gz
+*.whl
+
+# IDE/project settings (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Operating system files (Windows/macOS)
+Thumbs.db
+.DS_Store
+
+# Log files
+*.log
+
+# Environment variables (for sensitive data)
+.env
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+
+# Test reports
+nosetests.xml
+test-*.xml
+tests/screenshots/
+
+# Python virtualenvs
+.venv/
