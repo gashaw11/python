@@ -9,4 +9,4 @@ while True:
         break
 
 for item in sorted(grocery):
-    print(grocery[item],item
+    print(grocery[item],item)
