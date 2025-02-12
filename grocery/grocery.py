@@ -16,7 +16,7 @@ def grocery_counter():
             item = input("Enter item: ").strip().upper()
             grocery_list[item] = grocery_list.get(item, 0) + 1
         except EOFError:
-            break
+            break #this means ctr + Z + Enter in windows..ctr + D on linux/macos
 
     # Save updated data back to the file
     with open("grocery_list.json", "w") as file:
