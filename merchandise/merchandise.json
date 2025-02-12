@@ -1,7 +1,7 @@
 {
     "T-Shirt": {
         "category": "Clothing",
-        "quantity": 48,
+        "quantity": 35,
         "price_per_unit": 15.0,
         "sku": "TS001"
     },
