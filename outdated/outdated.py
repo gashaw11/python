@@ -4,7 +4,7 @@
 #using split and strip methods
 
 #submit50 cs50/problems/2022/python/outdated
-
+#this is updated
 dates=[
     "January",
     "February",
