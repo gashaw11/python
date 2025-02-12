@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV into a DataFrame
-df = pd.read_csv("budget.csv")
+df = pd.read_csv("merchandise.csv")
 
 # Dictionary of updates: {Category: New Amount}
 updates = {
@@ -11,9 +11,9 @@ updates = {
 }
 
 # Apply bulk updates where the Category matches
-df.loc[df["Category"].isin(updates.keys()), "Amount"] = df["Category"].map(updates)
+df.loc[df["Item"].isin(updates.keys()), "Quantity"] = df["Item"].map(updates)
 
 # Save back to CSV
-df.to_csv("budget.csv", index=False)
+df.to_csv("merchandise.csv", index=False)
 
 print("Bulk update completed successfully!")
