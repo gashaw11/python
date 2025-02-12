@@ -1,0 +1,20 @@
+{
+    "T-Shirt": {
+        "category": "Clothing",
+        "quantity": 48,
+        "price_per_unit": 15.0,
+        "sku": "TS001"
+    },
+    "Laptop": {
+        "category": "Electronics",
+        "quantity": 10,
+        "price_per_unit": 1200.0,
+        "sku": "LT001"
+    },
+    "Coffee Mug": {
+        "category": "Kitchenware",
+        "quantity": 100,
+        "price_per_unit": 8.0,
+        "sku": "CM001"
+    }
+}
