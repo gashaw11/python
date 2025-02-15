@@ -4,6 +4,7 @@
 #using split and strip methods
 
 #submit50 cs50/problems/2022/python/outdated
+<<<<<<< HEAD
 
 from datetime import datetime
 
@@ -11,6 +12,22 @@ from datetime import datetime
 months = [
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
+=======
+#this is updated
+dates=[
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+>>>>>>> 88422ddcabba26f4dac9e7fffaf5d43559b2cb9d
 ]
 
 # Get user input
