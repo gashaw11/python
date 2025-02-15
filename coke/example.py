@@ -7,4 +7,4 @@ while amount_due > 0:
     else:
         print("invalide amount")
 change_owed = abs(amount_due)
-print(change_owed)
+print(f"change {change_owed}=02")
