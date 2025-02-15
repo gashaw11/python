@@ -2,7 +2,9 @@
 import random
 n=100
 level = random.randint(1,n)
+print(n)
 while True:
+    
     try:
 
         guess = int(input("Guess: "))
