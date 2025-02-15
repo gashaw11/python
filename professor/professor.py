@@ -33,9 +33,14 @@ def main():
             if answer != num1 + num2:
                 print("Incorrect.")
             # The game continues to the next question regardless of whether the answer is correct or incorrect
-
         except ValueError:
             print("Please enter a valid number.")  # Handle invalid input
+        except EOFError:
+           
+            break
+            
+            
 
 if __name__ == "__main__":
     main()
+ 

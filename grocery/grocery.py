@@ -16,6 +16,7 @@ def grocery_counter():
             item = input("Enter item: ").strip().upper()
             grocery_list[item] = grocery_list.get(item, 0) + 1
         except EOFError:
+            print("done")
             break
 
     # Save updated data back to the file
