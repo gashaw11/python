@@ -17,4 +17,4 @@ while True:
             print("just right")
             break
     except ValueError:
-      print("please enter a number between 1 and n")
+      print("please enter a number between 1 and",n)
