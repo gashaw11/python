@@ -1,8 +1,10 @@
 {
-    "BANANA": 5,
+    "BANANA": 8,
     "BANANAB": 2,
     "BANABA": 1,
     "ORABGE": 1,
-    "ORANGE": 1,
-    "AVOCADO": 3
+    "ORANGE": 3,
+    "AVOCADO": 3,
+    "DONE": 1,
+    "\u0004": 1
 }
