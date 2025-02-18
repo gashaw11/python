@@ -18,7 +18,7 @@ dates=[
     "October",
     "November",
     "December"
-]
+]#could use a dict
 date = input("Date (e.g., January 5, 2023 or mm/dd/yyyy: ").strip()
 
 if "/" in date:
