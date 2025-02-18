@@ -30,3 +30,8 @@
 
 
 
+#print(round(4.64532,2))
+#print(tuple([2,3,4]))
+# seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+# for enu in enumerate(seasons,1):
+#     print(enu)
