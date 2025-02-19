@@ -35,3 +35,8 @@
 # seasons = ['Spring', 'Summer', 'Fall', 'Winter']
 # for enu in enumerate(seasons,1):
 #     print(enu)
+
+# from time import gmtime, strftime
+
+# a=strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime())
+# print(a)
