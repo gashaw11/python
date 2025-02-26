@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5a310f4 (readme upodated)
 # import random
 
 # #m = int(input("enter the number of times "))
@@ -285,3 +288,7 @@
 #     formatted_location = f"City: {city:<115} | Coordinates: Latitude: {lat:.5f}, Longitude: {lon:.5f}"
 #     print(formatted_location)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a310f4 (readme upodated)
