@@ -8,6 +8,16 @@ n = random.random()
 print(n)
 else:
 break
+#print(round(4.64532,2))
+#print(tuple([2,3,4]))
+# seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+# for enu in enumerate(seasons,1):
+#     print(enu)
+
+# from time import gmtime, strftime
+
+# a=strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime())
+# print(a)
 class Person:
 def init(self, name, age):
 self.name = name
@@ -246,13 +256,4 @@ Footer
 
 
 
-#print(round(4.64532,2))
-#print(tuple([2,3,4]))
-# seasons = ['Spring', 'Summer', 'Fall', 'Winter']
-# for enu in enumerate(seasons,1):
-#     print(enu)
 
-# from time import gmtime, strftime
-
-# a=strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime())
-# print(a)
