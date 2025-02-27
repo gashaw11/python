@@ -316,8 +316,59 @@
 # for city, lat, lon in locations:
 #     formatted_location = f"City: {city:<115} | Coordinates: Latitude: {lat:.5f}, Longitude: {lon:.5f}"
 #     print(formatted_location)
+# class User:
+#     def __init__(self, username):
+#         self.username = username
 
-<<<<<<< HEAD
-=======
+# # Create a user instance
+# user2 = User("jane_doe")
 
->>>>>>> 5a310f4 (readme upodated)
+# # First and only update
+# profile_data = {"name": "Jane Doe", "age": 28, "email": "jane@example.com"}
+
+# for key, value in profile_data.items():
+#     setattr(user2, key, value)
+
+# print(user2.name)  # Output: Jane Doe
+# print(user2.age)   # Output: 28
+
+# # Trying to update again? We need to write another loop manually.
+# profile_data2 = {"city": "Los Angeles"}
+# for key, value in profile_data2.items():
+#     setattr(user2, key, value)
+
+# print(user2.city)  # Output: Los Angeles
+
+
+# class User:
+#     def __init__(self, username):
+#         self.username = username
+
+#     def update_profile(self, profile_data):
+#         """Dynamically update user attributes"""
+#         for key, value in profile_data.items():
+#             setattr(self, key, value)
+
+# # Create a user instance
+# user1 = User("john_doe")
+
+# # First update
+# profile_data1 = {"name": "John Doe", "age": 30}
+# user1.update_profile(profile_data1)
+
+# print(user1.name)  # Output: John Doe
+# print(user1.age)   # Output: 30
+
+# # Second update (new data)
+# profile_data2 = {"email": "john.doe@example.com", "city": "New York"}
+# user1.update_profile(profile_data2)
+
+# print(user1.email)  # Output: john.doe@example.com
+# print(user1.city)   # Output: New York
+
+# # Third update (changing an existing attribute)
+# profile_data3 = {"age": 31}  # Age changed from 30 to 31
+# user1.update_profile(profile_data3)
+
+# print(user1.age)   # Output: 31 (updated!)
+
