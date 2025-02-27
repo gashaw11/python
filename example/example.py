@@ -30,10 +30,7 @@
 
 # a=strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime())
 # print(a)
-<<<<<<< HEAD
 
-=======
->>>>>>> 5a310f4 (readme upodated)
 # import random
 
 # #m = int(input("enter the number of times "))
